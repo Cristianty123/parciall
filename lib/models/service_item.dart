@@ -1,3 +1,4 @@
+//Aquí definimos el modelo de datos
 class ServiceItem {
   final String title;
   final String category;
@@ -10,6 +11,7 @@ class ServiceItem {
   final bool active;
 
   const ServiceItem({
+    //required para obligar a que se ingresen estos datos al crear un nuevo servicio
     required this.title,
     required this.category,
     required this.description,
